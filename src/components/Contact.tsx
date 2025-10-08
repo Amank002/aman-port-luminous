@@ -27,26 +27,26 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "aman.kumar@example.com",
-      href: "mailto:aman.kumar@example.com"
+      value: "amankum43850@gmail.com",
+      href: "mailto:amankum43850@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 XXXXX XXXXX",
-      href: "tel:+91XXXXXXXXXX"
+      value: "+91 8051093538",
+      href: "tel:+918051093538"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/amankumar",
-      href: "https://linkedin.com/in/amankumar"
+      value: "linkedin.com/in/aman-kumar-7b37b7340",
+      href: "https://www.linkedin.com/in/aman-kumar-7b37b7340"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/amankumar",
-      href: "https://github.com/amankumar"
+      value: "github.com/Amank002",
+      href: "https://github.com/Amank002"
     }
   ];
 
