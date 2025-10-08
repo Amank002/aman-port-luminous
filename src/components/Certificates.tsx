@@ -9,6 +9,18 @@ const Certificates = () => {
       issuer: "Be10x",
       date: "April 2025",
       description: "Comprehensive training on modern AI tools and their practical applications in development.",
+    },
+    {
+      title: "Python Programming",
+      issuer: "Udemy",
+      date: "2024",
+      description: "Completed comprehensive Python programming course covering fundamentals, data structures, and advanced concepts.",
+    },
+    {
+      title: "Microsoft Azure AI Essentials: Workload and Machine Learning on Azure",
+      issuer: "LinkedIn",
+      date: "2024",
+      description: "Professional certification in Azure AI services, machine learning workloads, and cloud-based AI solutions.",
     }
   ];
 
@@ -21,7 +33,7 @@ const Certificates = () => {
           <p className="text-muted-foreground mt-4 text-lg">Professional development and learning</p>
         </div>
 
-        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
+        <div className="max-w-4xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {certificates.map((cert, index) => (
             <Card 
               key={index}
@@ -50,15 +62,6 @@ const Certificates = () => {
             </Card>
           ))}
 
-          {/* Placeholder for future certificates */}
-          <Card className="p-6 bg-card/50 border-border border-dashed hover:border-primary/30 transition-all duration-300 animate-fade-in">
-            <div className="space-y-4 text-center flex flex-col items-center justify-center h-full min-h-[200px]">
-              <div className="p-4 bg-muted rounded-lg">
-                <Award className="h-12 w-12 text-muted-foreground" />
-              </div>
-              <p className="text-muted-foreground">More certifications coming soon...</p>
-            </div>
-          </Card>
         </div>
       </div>
     </section>
